@@ -17,8 +17,7 @@ define(function () {
             canvas.height = window.innerHeight;
 
             var ctx = canvas.getContext("2d");
-            // EDIT: Changed the color to red
-            ctx.strokeStyle = "#FF0000";
+            ctx.strokeStyle = "#00FFFF";
 
             var subcellsVertical = window.innerHeight / subcellSize;
             for (i = 0; i < subcellsVertical; i++) {
