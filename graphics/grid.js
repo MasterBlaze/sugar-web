@@ -17,7 +17,8 @@ define(function () {
             canvas.height = window.innerHeight;
 
             var ctx = canvas.getContext("2d");
-            ctx.strokeStyle = "#00FFFF";
+            // EDIT: stroke color edited
+            ctx.strokeStyle = "#FF0000";
 
             var subcellsVertical = window.innerHeight / subcellSize;
             for (i = 0; i < subcellsVertical; i++) {
